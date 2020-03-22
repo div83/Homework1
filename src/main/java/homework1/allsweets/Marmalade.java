@@ -4,11 +4,15 @@ package homework1.allsweets;
  * @author Irina Goncharova
  */
 public class Marmalade extends Sweets {
-    String color;
+    private String color;
 
     public Marmalade(String name, double weight, double sugarCont, String color, String groupOfSweets, int quantity) {
         super(name, weight, sugarCont, groupOfSweets, quantity);
         this.color = color;
+    }
+
+    public Marmalade(){
+
     }
 
     public String getColor() { return color;}

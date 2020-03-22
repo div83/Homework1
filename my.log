@@ -1,0 +1,48 @@
+2020-03-22 14:56:52 INFO  Class:25 - -----------------------------------------
+2020-03-22 14:56:52 INFO  Class:26 - Entering an application
+2020-03-22 14:56:52 INFO  Class:30 - Creating a present
+2020-03-22 14:56:52 INFO  Class:42 - The weight of present is calculated successfully
+2020-03-22 14:56:52 INFO  Class:48 - Sorting by weight of one piece is ended successfully
+2020-03-22 14:56:52 WARN  Class:100 - An attempt to read the first number
+2020-03-22 14:56:57 INFO  Class:110 - The value is negative
+2020-03-22 14:56:57 WARN  Class:100 - An attempt to read the first number
+2020-03-22 14:56:59 ERROR Class:103 - Invalid input format: not a number
+2020-03-22 14:56:59 INFO  Class:110 - The value is negative
+2020-03-22 14:56:59 WARN  Class:100 - An attempt to read the first number
+2020-03-22 14:57:01 INFO  Class:110 - The value is negative
+2020-03-22 14:57:01 WARN  Class:100 - An attempt to read the first number
+2020-03-22 14:57:03 WARN  Class:116 - An attempt to read the second number
+2020-03-22 14:57:07 ERROR Class:119 - Invalid input format: not a number
+2020-03-22 14:57:07 INFO  Class:126 - The value is negative
+2020-03-22 14:57:07 WARN  Class:116 - An attempt to read the second number
+2020-03-22 14:57:10 INFO  Class:126 - The value is negative
+2020-03-22 14:57:10 WARN  Class:116 - An attempt to read the second number
+2020-03-22 14:57:13 INFO  Class:54 - Range numbers were inputed correctly
+2020-03-22 14:57:13 INFO  Class:57 - Searchin by sugar content is ended successfully
+2020-03-22 14:57:25 INFO  Class:25 - -----------------------------------------
+2020-03-22 14:57:25 INFO  Class:26 - Entering an application
+2020-03-22 14:57:25 INFO  Class:30 - Creating a present
+2020-03-22 14:57:25 INFO  Class:42 - The weight of present is calculated successfully
+2020-03-22 14:57:25 INFO  Class:48 - Sorting by weight of one piece is ended successfully
+2020-03-22 14:57:25 WARN  Class:100 - An attempt to read the first number
+2020-03-22 14:57:28 WARN  Class:116 - An attempt to read the second number
+2020-03-22 14:57:32 INFO  Class:54 - Range numbers were inputed correctly
+2020-03-22 14:57:32 INFO  Class:57 - Searchin by sugar content is ended successfully
+2020-03-22 15:09:04 INFO  Main:24 - -----------------------------------------
+2020-03-22 15:09:04 INFO  Main:25 - Entering an application
+2020-03-22 15:09:04 INFO  Main:28 - Creating a present
+2020-03-22 15:09:04 INFO  Main:37 - The weight of present is calculated successfully
+2020-03-22 15:09:04 INFO  Main:42 - Sorting by weight of one piece is ended successfully
+2020-03-22 15:09:04 WARN  Main:92 - An attempt to read the first number
+2020-03-22 15:09:11 WARN  Main:108 - An attempt to read the second number
+2020-03-22 15:09:12 INFO  Main:46 - Range numbers were inputed correctly
+2020-03-22 15:09:12 INFO  Main:49 - Searching by sugar content is ended successfully
+2020-03-22 15:11:41 INFO  Main:24 - -----------------------------------------
+2020-03-22 15:11:41 INFO  Main:25 - Entering an application
+2020-03-22 15:11:41 INFO  Main:28 - Creating a present
+2020-03-22 15:11:41 INFO  Main:36 - The weight of present is calculated successfully
+2020-03-22 15:11:41 INFO  Main:41 - Sorting by weight of one piece is ended successfully
+2020-03-22 15:11:41 WARN  Main:91 - An attempt to read the first number
+2020-03-22 15:11:44 WARN  Main:107 - An attempt to read the second number
+2020-03-22 15:11:45 INFO  Main:45 - Range numbers were inputed correctly
+2020-03-22 15:11:45 INFO  Main:48 - Searching by sugar content is ended successfully

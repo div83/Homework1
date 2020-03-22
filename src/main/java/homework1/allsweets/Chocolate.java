@@ -4,11 +4,15 @@ package homework1.allsweets;
  * @author Irina Goncharova
  */
 public class Chocolate extends Sweets {
-    String type;
+    private String type;
 
     public Chocolate(String name, double weight, double sugarCont, String type, String groupOfSweets, int quantity) {
         super(name, weight, sugarCont, groupOfSweets, quantity);
         this.type = type;
+    }
+
+    public Chocolate(){
+
     }
 
     public String getType() { return type; }

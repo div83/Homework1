@@ -3,9 +3,9 @@ package homework1.allsweets;
 /**
  * @author Irina Goncharova
  */
-public class Sweets {
+public abstract class Sweets {
     private String name;
-    public double weight;
+    private double weight;
     private double sugarCont;
     private String groupOfSweets;
     private int quantity;
@@ -18,42 +18,47 @@ public class Sweets {
         this.quantity = quantity;
     }
 
-    public Sweets () {
+    public Sweets(){
 
-    }
-
-    @Override
-    public String toString() {
-        return name + " " + quantity;
     }
 
     public String getName() {
+        if (name.isEmpty()) {
+            throw new IllegalArgumentException("The field \"name\" can not be empty");
+        }
         return name;
     }
 
     public void setName(String name) {
-        if (name.isEmpty() || name == null || name.equals("")) {
-            System.out.println("Поле \"имя\" не может быть пустым");
-        } else {
-            this.name = name;
+        if (name.isEmpty()) {
+            throw new IllegalArgumentException("The field \"name\" can not be empty");
         }
+        this.name = name;
     }
 
-    public double getWeight() { return weight; }
-
-    public void setWeight () {
+    public double getWeight() {
         if (weight <= 0) {
-            System.out.println("Вес не может быть отрицательным");
+            throw new IllegalArgumentException("The weight can not be negative");
+        }
+        return weight; }
+
+    public void setWeight (double weight) {
+        if (weight <= 0) {
+            throw new IllegalArgumentException("The weight can not be negative");
         } else {
             this.weight = weight;
         }
     }
 
-    public double getSugarCont () { return sugarCont; }
-
-    public void setSugarCont () {
+    public double getSugarCont () {
         if (sugarCont <= 0) {
-            System.out.println("Содержание сахара не может быть отрицательным");
+            throw new IllegalArgumentException("The weight can not be negative");
+        }
+        return sugarCont; }
+
+    public void setSugarCont (double sugarCont) {
+        if (sugarCont <= 0) {
+            throw new IllegalArgumentException("The weight can not be negative");
         } else {
             this.sugarCont = sugarCont;
         }

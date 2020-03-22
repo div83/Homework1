@@ -1,5 +1,6 @@
 import homework1.allsweets.Candies;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -7,26 +8,26 @@ import org.junit.Test;
  * @author Irina Goncharova
  */
 public class CandiesTest {
+    private Candies candy1;
 
-    private static Candies candy1;
-    private static Candies candy2;
-
-    @BeforeClass
-    public static void createNewCandy() {
+    @Before
+    public void createNewCandy() {
         candy1 = new Candies("Babble", 25, 2, "lemon", "candy", 4);
-        candy2 = new Candies("", -5, -2, "", "", 1);
     }
 
-    @Test
-    public void  shouldCreateNotNullCandy () {
-        Assert.assertNotNull(candy1);
+    @Test(expected = IllegalArgumentException.class)
+    public void shouldThrowException_WhenInputNameIsEmpty() {
+        candy1.setName("");
     }
 
-//    @Test
-//    public void shouldReturnError_WhenInputNameIsNull() {
-//        candy1.setName("");
-//        Assert.a
-//
+    @Test(expected = IllegalArgumentException.class)
+    public void shouldThrowException_WhenInputWeightIsNegative() {
+        candy1.setWeight(-5.0);
+    }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void shouldThrowException_WhenInputSugarContentIsNegative() {
+        candy1.setSugarCont(-7);
+    }
 
 }
